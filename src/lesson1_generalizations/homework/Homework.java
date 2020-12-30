@@ -2,6 +2,10 @@ package lesson1_generalizations.homework;
 
 import java.util.*;
 
+/**
+ * 1. Написать метод, который меняет два элемента массива местами (массив может быть любого ссылочного типа).
+ * 2. Написать метод, который преобразует массив в ArrayList.
+ */
 public class Homework<T> {
 
     public void task2(T[] array) {
