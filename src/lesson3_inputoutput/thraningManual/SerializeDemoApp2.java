@@ -1,4 +1,4 @@
-package lesson3_inputoutput.threaningManual;
+package lesson3_inputoutput.thraningManual;
 
 import java.io.*;
 

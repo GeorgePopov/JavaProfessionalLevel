@@ -30,7 +30,7 @@ class Test1 {
 
 class Test2 {
     public static void main(String[] args) throws IOException {
-        Path testFilePath = Paths.get(".\\Test");
+        Path testFilePath = Paths.get(".\\TestThread");
         System.out.println("The file name is: " + testFilePath.getFileName());
         System.out.println("It's URI is: " + testFilePath.toUri());
         System.out.println("It's absolute path is: "
@@ -49,8 +49,8 @@ class Test2 {
 
 class Test3 {
     public static void main(String[] args) {
-        Path path1 = Paths.get("Test");
-        Path path2 = Paths.get("/home/heorhi/workspace/OCPJP/Test");
+        Path path1 = Paths.get("TestThread");
+        Path path2 = Paths.get("/home/heorhi/workspace/OCPJP/TestThread");
         System.out.println("(path1.compareTo(path2) == 0) is: "
                 + (path1.compareTo(path2) == 0));
         System.out.println("path1.equals(path2) is: " + path1.equals(path2));
